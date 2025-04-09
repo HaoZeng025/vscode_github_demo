@@ -13,10 +13,19 @@
         <div class="card_content">
             <p class="card_info">Key Sth Here...</p>
             <div class="btn_group">
-                <button @click="save()">Save</button>
-                <button @click="delete()">Delete</button>
+                <button @click="cardSave()">Save</button>
+                <button @click="cardDelete()">Delete</button>
             </div>
         </div>
     </div>
 </body>
+<script>
+    function cardSave(){
+        alert("Saved successfully!");
+    };
+
+    function cardDelete(){
+        alert("Delete successfully!");
+    };
+</script>
 </html>
