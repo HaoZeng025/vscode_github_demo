@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+</head>
+<body>
+    <div class="card_wrapper">
+        <div class="card_title">
+            <h3>Card title</h3>
+        </div>
+        <div class="card_content">
+            <p class="card_info">Key Sth Here...</p>
+            <div class="btn_group">
+                <button @click="cardSave()">Save</button>
+                <button @click="cardDelete()">Delete</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function cardSave(){
+        alert("Saved successfully!");
+    };
+
+    function cardDelete(){
+        alert("Delete successfully!");
+    };
+</script>
+</html>
